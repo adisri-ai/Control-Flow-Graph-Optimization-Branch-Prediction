@@ -10,6 +10,6 @@
 # Project Phases  
 The project will be made with the following phases: 
 1. **Training Data Generation** : Since there isn't any readily available data for each of the defined personality classes, we generate randomized code for each personality using python.
-                                  Refer to the [File](DATA_GENERATION.md)
+                                  Refer to the [Documentation](DATA_GENERATION.md) and [Final Generated Data](data_generation/data.csv)
 2. **Model Training**           : Once the training data is generated, we train the LSTM model on our training data.
 3. **Frontend**                 : Finally, we create a frontend to take user code as input and return the optimal execution sequence.
