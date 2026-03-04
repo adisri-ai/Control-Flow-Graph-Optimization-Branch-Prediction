@@ -12,4 +12,7 @@ The project will be made with the following phases:
 1. **Training Data Generation** : Since there isn't any readily available data for each of the defined personality classes, we generate randomized code for each personality using python.
                                   Refer to the [Documentation](DATA_GENERATION.md) and [Final Generated Data](data_generation/data.csv)
 2. **Model Training**           : Once the training data is generated, we train the LSTM model on our training data. Refer to the [Training Documentation](TRAINING.md) and [Model file](training/cfg_lstm_model.keras) obtained as output.
-3. **Frontend**                 : Finally, we create a frontend to take user code as input and return the optimal execution sequence.
+3. **Code Flow Prediction*** :   Predicting the flow of the code using the model in order to perform scheduling accordingly and reducing cycle count.
+4. **Dependency Analaysis**  : Performing dependency analysis of various tasks in order to satisfy all constraints during scheduling.
+5. **Optimizing Cycle Count** : Optimizing the cycle count and comparing with the baseline cycle count of serialized sequence.  
+6. **Frontend**                 : Finally, we create a frontend to take user code as input and return the optimal execution sequence.
